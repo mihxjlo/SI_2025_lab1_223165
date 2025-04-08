@@ -45,4 +45,20 @@ git commit -m "Final commit"
    26. Финална синхронизација
  
 git push origin master
+
+Дел 3:
+
+$ mkdir labclone
+
+$ git clone https://github.com/mihxjlo/SI_2025_lab1_151020.git
+
+$ cd SI_2025_lab1_151020
+
+$ nano 223165.txt
+
+$ git add 223165.txt
+$ git commit -m "Add file"
+$ git push origin master
+
+
  
