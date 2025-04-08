@@ -1,0 +1,15 @@
+*   bd1277b Merge branch '1-remove-a-task-by-name'
+|\  
+| * 95a9da9 Implement removeTaskByName method
+* |   b25677f Merge pull request #11 from mihxjlo/3-list-tasks-sorted-by-name
+|\ \  
+| * | 31c08ee Implement sortTasksByName method
+| |/  
+* |   66ffca7 Merge pull request #12 from mihxjlo/5-filter-tasks-by-category
+|\ \  
+| |/  
+|/|   
+| * 93b6f1e Implemented filterTasksByCategory method
+|/  
+* 797101c Add starter code
+* 9bfa9bf Intial commit

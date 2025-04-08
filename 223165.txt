@@ -1,0 +1,48 @@
+ Документација за Лабораториска вежба 1 по Софтверско инженерство
+
+
+  Дел 2: 
+
+   13. Преземање на креираните гранки
+
+git fetch origin
+
+
+   14-17. Имплементација на првиот issue(и останатите 2)
+ 
+git checkout 1-remove-a-task-by-name
+
+(при завршување на имплементација на првиот issue, направив грешка каде го сменив кодот пред да се префрлам на следниот issue branch, тоа го поправив со git stash -> git checkout 3-list-tasks-sorted-by-name -> git stash pop, и понатаму регуларните команди за add,commit,push)
+
+*Имплементација на функционалноста за issues
+git add .
+git commit -m "Implement removeTaskByName method"
+git push origin 1-remove-a-task-by-name
+ 
+
+   18-19. Креирање на pull request за првиот issue
+Креирав pull request за спојување на првата гранка кон master преку Github интерфејсот.
+
+
+   20-24. Спојување на два pull requests
+Ги одобрив и споив две pull requests преку Github интерфејсот. 
+Едниот го споив локално со git checkout master -> git pull origin master -> git merge 1-remove-a-task-by-name -> git add . -> git commit -m "Merge branch 1-remove-a-task-by-name" -> git push origin master. 
+Стратегија:
+$ git merge 1-remove-a-task-by-name
+Auto-merging SI2025Lab1Main.java
+Merge made by the 'ort' strategy.
+(не се случија никакви конфликти)
+  
+
+   25. Додавање на logs.txt и INDEX.txt
+ 
+git log --oneline --graph --all > logs.txt
+git add logs.txt
+git add INDEX.txt
+git commit -m "Final commit"
+ 
+
+   26. Финална синхронизација
+ 
+git push origin master
+ 
